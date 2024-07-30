@@ -4,10 +4,10 @@ import os
 
 
 class Config(object):
-	API_ID = int(os.environ.get("API_ID", "0"))
-	API_HASH = os.environ.get("API_HASH")
-	BOT_TOKEN = os.environ.get("BOT_TOKEN")
-	BOT_USERNAME = os.environ.get("BOT_USERNAME")
+	API_ID = int(os.environ.get("27829715", "0"))
+	API_HASH = os.environ.get("72e38250de2b0ae7dd9eb467ffa35c17")
+	BOT_TOKEN = os.environ.get("7332152341:AAHUsYsK9gRcc2F2PGGassiv1trXRkGGV1I")
+	BOT_USERNAME = os.environ.get("@Animeplaysindia_filestore_bot")
 	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-100"))
 	BOT_OWNER = int(os.environ.get("BOT_OWNER", "1445283714"))
 	DATABASE_URL = os.environ.get("DATABASE_URL")
